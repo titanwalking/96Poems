@@ -7,6 +7,7 @@ import co.zsmb.rainbowcake.navigation.SimpleNavActivity
 class MainActivity : SimpleNavActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="co.zsmb.rainbowcake.ninetysixpoems">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:name="co.zsmb.rainbowcake.ninetysixpoems.GuardianDemoApplication"
+        android:name=".GuardianDemoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="co.zsmb.rainbowcake.ninetysixpoems.MainActivity">
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +22,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
