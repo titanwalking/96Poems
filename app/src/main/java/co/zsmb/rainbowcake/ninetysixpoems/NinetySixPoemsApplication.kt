@@ -7,11 +7,14 @@ import co.zsmb.rainbowcake.ninetysixpoems.di.AppComponent
 import co.zsmb.rainbowcake.ninetysixpoems.di.ApplicationModule
 import co.zsmb.rainbowcake.ninetysixpoems.di.DaggerAppComponent
 import co.zsmb.rainbowcake.timber.TIMBER
+import com.google.firebase.analytics.FirebaseAnalytics
 import timber.log.Timber
 
-class GuardianDemoApplication : RainbowCakeApplication() {
+class NinetySixPoemsApplication : RainbowCakeApplication() {
 
     override lateinit var injector: AppComponent
+
+    private lateinit var firebaseAnalytics: FirebaseAnalytics
 
     override fun setupInjector() {
         injector = DaggerAppComponent.builder()
@@ -28,6 +31,8 @@ class GuardianDemoApplication : RainbowCakeApplication() {
         }
 
         Timber.plant(Timber.DebugTree())
+
+        firebaseAnalytics = FirebaseAnalytics.getInstance(this)
     }
 
 }

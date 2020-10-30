@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552707468664",
+    "firebase_url": "https://poems-26afe.firebaseio.com",
+    "project_id": "poems-26afe",
+    "storage_bucket": "poems-26afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552707468664:android:70f97c48f3bc70b798ec8d",
+        "android_client_info": {
+          "package_name": "co.zsmb.rainbowcake.ninetysixpoems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552707468664-ckc8gkc29o8ij1vrpvn2isqcljtlrjkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAdoyZwlF6jNH9LgkaMrRCpOkwIlnICaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552707468664-ckc8gkc29o8ij1vrpvn2isqcljtlrjkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
