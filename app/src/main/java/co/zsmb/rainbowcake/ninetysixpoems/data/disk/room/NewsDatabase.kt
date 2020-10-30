@@ -1,8 +1,8 @@
-package co.zsmb.rainbowcake.ninetysixpoems.data.disk
+package co.zsmb.rainbowcake.ninetysixpoems.data.disk.room
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import co.zsmb.rainbowcake.ninetysixpoems.data.disk.entities.RoomNewsItem
+import co.zsmb.rainbowcake.ninetysixpoems.data.disk.room.entities.RoomNewsItem
 
 @Database(
     entities = [RoomNewsItem::class],

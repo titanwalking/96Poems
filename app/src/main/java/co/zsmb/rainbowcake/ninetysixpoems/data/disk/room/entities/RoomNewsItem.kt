@@ -1,4 +1,4 @@
-package co.zsmb.rainbowcake.ninetysixpoems.data.disk.entities
+package co.zsmb.rainbowcake.ninetysixpoems.data.disk.room.entities
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

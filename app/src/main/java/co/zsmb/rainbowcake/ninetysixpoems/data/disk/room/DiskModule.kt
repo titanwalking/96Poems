@@ -1,4 +1,4 @@
-package co.zsmb.rainbowcake.ninetysixpoems.data.disk
+package co.zsmb.rainbowcake.ninetysixpoems.data.disk.room
 
 import android.content.Context
 import androidx.room.Room

@@ -1,6 +1,6 @@
-package co.zsmb.rainbowcake.ninetysixpoems.data.disk
+package co.zsmb.rainbowcake.ninetysixpoems.data.disk.room
 
-import co.zsmb.rainbowcake.ninetysixpoems.data.disk.entities.RoomNewsItem
+import co.zsmb.rainbowcake.ninetysixpoems.data.disk.room.entities.RoomNewsItem
 import co.zsmb.rainbowcake.ninetysixpoems.domain.News
 
 fun News.toRoomNewsItem(): RoomNewsItem {

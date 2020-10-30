@@ -11,18 +11,17 @@ import kotlin.collections.ArrayList
 
 class LineListViewModel @Inject constructor() : RainbowCakeViewModel<LineListViewState>(Loading) {
 
-    private var dbCollection = Firebase.firestore.collection("lines")
+    private var linesCollection = Firebase.firestore.collection("lines")
 
     init {
         execute {
             loadLines()
-            addLine()
         }
     }
 
     private fun loadLines() {
         viewState = Loading
-        dbCollection
+        linesCollection
             .get()
             .addOnSuccessListener { result ->
                 val lines = ArrayList<Line>()
@@ -41,7 +40,7 @@ class LineListViewModel @Inject constructor() : RainbowCakeViewModel<LineListVie
             "line" to "Los Angeles"
         )
 
-        dbCollection.document(UUID.randomUUID().toString()).set(line)
+        linesCollection.document(UUID.randomUUID().toString()).set(line)
     }
 
 }

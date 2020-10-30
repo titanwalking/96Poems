@@ -1,6 +1,6 @@
 package co.zsmb.rainbowcake.ninetysixpoems.domain
 
-import co.zsmb.rainbowcake.ninetysixpoems.data.disk.DiskDataSource
+import co.zsmb.rainbowcake.ninetysixpoems.data.disk.room.DiskDataSource
 import co.zsmb.rainbowcake.ninetysixpoems.data.network.NetworkDataSource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

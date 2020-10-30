@@ -1,10 +1,10 @@
-package co.zsmb.rainbowcake.ninetysixpoems.data.disk
+package co.zsmb.rainbowcake.ninetysixpoems.data.disk.room
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
-import co.zsmb.rainbowcake.ninetysixpoems.data.disk.entities.RoomNewsItem
+import co.zsmb.rainbowcake.ninetysixpoems.data.disk.room.entities.RoomNewsItem
 import kotlinx.coroutines.flow.Flow
 
 @Dao
